@@ -6,8 +6,6 @@ console.clear()
 let nivel
 let nome = prompt("Informe o nome: ")
 let qtd_exp = parseInt(prompt("Informe a quantidade de experiência (XP): "))
-console.log(nome)   
-console.log(qtd_exp)
 
 //Estrutura de dedições e Operadores
 if(qtd_exp <= 1000){
@@ -28,7 +26,7 @@ else if(qtd_exp >= 7001 & qtd_exp <= 8000){
 else if(qtd_exp >= 8001 & qtd_exp <= 9000){
     nivel = "Ascendente"
 }
-else if(qtd_exp >= 9001 & qtd_exp < 10000){
+else if(qtd_exp >= 9001 & qtd_exp <= 10000){
     nivel = "Immortal"
 }
 else if(qtd_exp >= 10001){
